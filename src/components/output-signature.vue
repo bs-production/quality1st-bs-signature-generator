@@ -73,29 +73,6 @@
                     "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
                     src=
                     "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/facebook.png" /></a>
-                    
-                    <!-- <a href="https://www.linkedin.com/company/basement-systems-of-indiana" style=
-                    "border-width:0px; border:0px; text-decoration: none;"><img width="25"
-                    height="25" style=
-                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
-                    src=
-                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/linkedin.png" /></a> -->
-                    
-                    <a href="https://www.youtube.com/user/CTBasementSystems"
-                    style=
-                    "border-width:0px; border:0px; text-decoration: none;"><img width="25"
-                    height="25" style=
-                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
-                    src=
-                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/youtube.png" /></a>
-                    <a href="https://twitter.com/CTBasementSys" target="_blank"
-                    style=
-                    "border-width:0px; border:0px; text-decoration: none;"><img width="25"
-                    height="25" style=
-                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
-                    src=
-                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1253/twitter-circle-icon-2.png" /></a>
-
                     <a href="https://www.instagram.com/ctbasementsystems/"
                     style=
                     "border-width:0px; border:0px; text-decoration: none;"><img width="25"
@@ -103,6 +80,28 @@
                     "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
                     src=
                     "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/instagram.png" /></a>
+                    <!-- <a href="https://www.linkedin.com/company/basement-systems-of-indiana" style=
+                    "border-width:0px; border:0px; text-decoration: none;"><img width="25"
+                    height="25" style=
+                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
+                    src=
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/linkedin.png" /></a> -->
+                    
+                    <a href="https://twitter.com/CTBasementSys" target="_blank"
+                    style=
+                    "border-width:0px; border:0px; text-decoration: none;"><img width="25"
+                    height="25" style=
+                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
+                    src=
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1253/twitter-circle-icon-2.png" /></a>
+                    <a href="https://www.youtube.com/user/CTBasementSystems"
+                    style=
+                    "border-width:0px; border:0px; text-decoration: none;"><img width="25"
+                    height="25" style=
+                    "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
+                    src=
+                    "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/youtube.png" /></a>
+                    
                   </td>
                 </tr>
               </table>
