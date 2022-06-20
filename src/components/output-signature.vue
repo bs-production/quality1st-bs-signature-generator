@@ -101,7 +101,12 @@
                     "border: none; width: 25px; max-width: 25px !important; height: 25px; max-height: 25px !important;"
                     src=
                     "https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/1874/youtube.png" /></a>
-                    
+                            <a href="https://www.connecticutbasementsystems.com/quick-survey"
+                    style=
+                    "border-width:0px; border:0px; text-decoration: none;"><img width="152"
+                    height="25" style=
+                    "border: none; width: 152px; max-width: 152px !important; height: 25px; max-height: 25px !important;"
+                    src="https://cdn.treehouseinternetgroup.com/cms_images/7/google-logo-text.png" /></a>
                   </td>
                 </tr>
               </table>
