@@ -124,8 +124,9 @@
             </td>
           </tr>
         </table>
+         <p class="discover"><strong>Discover all of our services: </strong><a href="http://www.ctbasementcompanies.com/">ctbasementcompanies.com</a></p>
     </section>
-            <p style="text-align: left;"><strong>Discover all of our services: </strong><a href="http://www.ctbasementcompanies.com/">ctbasementcompanies.com</a></p>
+           
   </div> 
 </template>
 <script>
@@ -178,5 +179,8 @@ li {
 
 a {
   color: #1aaee4;
+}
+.discover {
+  text-align: left;
 }
 </style>
