@@ -125,7 +125,7 @@
           </tr>
         </table>
     </section>
-            <p><strong>Discover all of our services: </strong><a href="http://www.ctbasementcompanies.com/">ctbasementcompanies.com</a></p>
+            <p style="text-align: left;"><strong>Discover all of our services: </strong><a href="http://www.ctbasementcompanies.com/">ctbasementcompanies.com</a></p>
   </div> 
 </template>
 <script>
