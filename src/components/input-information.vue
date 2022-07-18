@@ -53,7 +53,7 @@
         </div>
         </form>
     </section>
-         <!-- <button @click="changeTitle">Add/Remove: Mobile Phone</button>       -->
+         <button @click="changeTitle">Add/Remove: Mobile Phone</button>      
   </div>
 </template>
 
