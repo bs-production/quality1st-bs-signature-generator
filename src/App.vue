@@ -5,7 +5,7 @@
       <div class="hero-body">
         <div class="container">
           <div class="th-logo has-text-centered">
-            <img src="https://dc69b531ebf7a086ce97-290115cc0d6de62a29c33db202ae565c.ssl.cf1.rackcdn.com/7/LJ-CBS-Logo_new-Fonts-and-Tagline.png" alt="" style="width:300px">
+            <img src="https://cdn.treehouseinternetgroup.com/cms_images/80/LJQuality%20Firstlogo4C-01.jpg" alt="" style="width:300px">
           </div>
         <h1 class="sub-text title has-text-centered">
             <p>Signature Generator</p> 
@@ -23,11 +23,8 @@
                
             <inputInformation :fullName.sync="fullName" :title.sync="title" :mobilePhone.sync="mobilePhone" :phone.sync="phone" :email.sync="email" :mobilePhoneSwitch.sync="mobilePhoneSwitch" v-on:changeTitle="updateTitle($event)" />
 <!----------------- Button ---------------->   
-    <button v-show="!mobilePhoneSwitch" @click="toggleShow, $modal.show('output')" class="button is-success" type="submit" :disabled="!isValid">
-        Copy Signature
-    </button>
  
-    <button v-show="mobilePhoneSwitch" @click="toggleShow, $modal.show('output')" class="button is-success" type="submit" :disabled="!isValidAss">
+    <button  @click="toggleShow, $modal.show('output')" class="button is-success" type="submit" :disabled="!isValidAss">
         Copy Signature
     </button>
 
@@ -44,7 +41,7 @@
       </div>
  <!----------------- Modal ---------------->    
  
-        <modal name="output" :height="500">
+        <modal name="output" :height="600">
          
           <div class="sign-box level-item has-text-centered">
               <div class="output-btn">
@@ -76,7 +73,7 @@
         <div class="container">
             <div class="content has-text-centered">
                 <p>
-                    &copy;2020 Connecticut Basement Systems
+                    &copy;2024 Quality 1st Basement Systems
                 </p>
             </div>
         </div>
@@ -93,8 +90,8 @@ export default {
     return {
       fullName: 'Full Name',
       title: 'Title',
-      mobilePhone: 'Mobile',
-      phone: 'Phone',
+      mobilePhone: 'Office',
+      phone: 'Direct Line',
       email: 'Email',
       isShowing: false,
       mobilePhoneSwitch: false
@@ -102,13 +99,13 @@ export default {
   },
   computed: {
     isValid: function () {
-      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.phone !== 'Phone' && this.email !== 'Email'
+      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.phone !== 'Direct Line'
     },
     isValidAss: function () {
-      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.mobilePhone !== 'Mobile' && this.phone !== 'Phone' && this.email !== 'Email'
+      return this.fullName !== 'Full Name' && this.title !== 'Title' && this.mobilePhone !== 'Office' && this.phone !== 'Direct Line'
     },
     isReset: function () {
-      return this.fullName !== 'Full Name' || this.title !== 'Title' || this.mobilePhone !== 'Mobile' || this.phone !== 'Phone' || this.email !== 'Email'
+      return this.fullName !== 'Full Name' || this.title !== 'Title' || this.mobilePhone !== 'Office' || this.phone !== 'Direct Line'
     }
   },
   methods: {
@@ -124,8 +121,8 @@ export default {
     reset () {
       this.fullName = 'Full Name'
       this.title = 'Title'
-      this.mobilePhone = 'Mobile'
-      this.phone = 'Phone'
+      this.mobilePhone = 'Office'
+      this.phone = 'Direct Line'
       this.email = 'Email'
     },
     updateTitle (updatedTitle) {
@@ -159,7 +156,7 @@ li {
   margin-left: 1px;
   background-color: #efefef;
   padding: 20px;
-  border-top: 1px dashed #1aaee4;
+  border-top: 1px dashed #000;
 }
 .gif-box ul {
     text-align:left;
@@ -209,7 +206,7 @@ input:disabled {
   margin-top: 10px;
 }
 .button.is-success, .button.is-success[disabled] {
-  background-color: #1aaee4;
+  background-color: #000;
   border-color: transparent;
   color: #fff;
 }

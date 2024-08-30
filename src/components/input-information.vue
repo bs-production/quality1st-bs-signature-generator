@@ -22,27 +22,25 @@
           </div>
         </div>
 
-  <div v-show="!mobilePhoneSwitch"></div>
-
         <div class="field">
           <div class="control has-icons-left has-icons-right">
-            <input class="input" onblur="if (this.value == '') {this.value = 'Phone';}" onfocus="if (this.value == 'Phone') {this.value = '';}" :value="phone" @input="$emit('update:phone', $event.target.value)" type="text">
+            <input class="input" onblur="if (this.value == '') {this.value = 'Direct Line';}" onfocus="if (this.value == 'Direct Line') {this.value = '';}" :value="phone" @input="$emit('update:phone', $event.target.value)" type="text">
                     <span class="icon is-small is-left">
                       <i class="fa fa-phone"></i>
                     </span>
           </div>
         </div>
-          <div v-show="mobilePhoneSwitch">
+      
           <div class="field" style="margin-bottom: .75rem;">
           <div class="control has-icons-left has-icons-right">
-            <input class="input" onblur="if (this.value == '') {this.value = 'Mobile';}" onfocus="if (this.value == 'Mobile') {this.value = '';}" :value="mobilePhone" @input="$emit('update:mobilePhone', $event.target.value)" type="text">
+            <input class="input" onblur="if (this.value == '') {this.value = 'Office';}" onfocus="if (this.value == 'Office') {this.value = '';}" :value="mobilePhone" @input="$emit('update:mobilePhone', $event.target.value)" type="text">
                    <span class="icon is-small is-left">
                       <i class="fa fa-mobile fa-lg"></i>
                     </span>
           </div>
         </div>
-        </div>
-        <div class="field">
+    
+        <!-- <div class="field">
           <div class="control has-icons-left has-icons-right">
             <input class="input" onblur="if (this.value == '') {this.value = 'Email';}" onfocus="if (this.value == 'Email') {this.value = '';}" :value="email" @input="$emit('update:email', $event.target.value)" type="text">
                     <span class="icon is-small is-left">
@@ -50,10 +48,10 @@
                     </span>
           </div>
           
-        </div>
+        </div> -->
         </form>
     </section>
-         <button @click="changeTitle">Add/Remove: Mobile Phone</button>      
+  
   </div>
 </template>
 
@@ -80,15 +78,6 @@ export default {
     email: {
       type: String,
       required: true
-    },
-    mobilePhoneSwitch: {
-      type: Boolean,
-      required: true
-    }
-  },
-  methods: {
-    changeTitle () {
-      this.$emit('changeTitle', this.mobilePhoneSwitch = !this.mobilePhoneSwitch)
     }
   }
 }
@@ -111,6 +100,6 @@ li {
 }
 
 a {
-  color: #1aaee4;
+  color: #000;
 }
 </style> 
