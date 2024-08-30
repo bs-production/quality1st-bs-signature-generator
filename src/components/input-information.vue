@@ -35,7 +35,7 @@
           <div class="control has-icons-left has-icons-right">
             <input class="input" onblur="if (this.value == '') {this.value = 'Office';}" onfocus="if (this.value == 'Office') {this.value = '';}" :value="mobilePhone" @input="$emit('update:mobilePhone', $event.target.value)" type="text">
                    <span class="icon is-small is-left">
-                      <i class="fa fa-mobile fa-lg"></i>
+                      <i class="fa fa-phone"></i> 
                     </span>
           </div>
         </div>

@@ -29,13 +29,13 @@
                 <tr>
                   <td colspan="2" style=
                   "color: #000; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">
-                  {{phone}}
+                  Direct Line: {{phone}}
                   </td>
                 </tr>
                 <tr>
                   <td colspan="2" style=
                   "color: #000; font-size: 18px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">
-                  {{mobilePhone}}
+                  Office: {{mobilePhone}}
                   </td>
                 </tr>
                 <tr>
