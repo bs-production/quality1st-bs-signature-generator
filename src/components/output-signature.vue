@@ -108,7 +108,7 @@
         </table>
          <p class="tagline">Being Relentless in the pursuit of constant improvement, for our team and for our customers.</p>
          <p class="disclaimer">Confidentiality Notice: This e-mail message, including any attachments, is for the sole use of the intended recipient(s) and may contain confidential and privileged information. Any unauthorized review, use, disclosure, or distribution is prohibited. If you are not the intended recipient, please contact the sender by reply e-mail and destroy all copies of the original message.</p>
-         <p class="license">Licensed in: NJ 13VH01833300 | NY 1274423 | PA 080144 | H-11634</p>
+         <p class="license">Licensed in: NJ 13VH01833300 | NY 1274423 | PA 080144 | H-11634 | DE 2024711366 | MD 161097</p>
     </section>
            
   </div> 
